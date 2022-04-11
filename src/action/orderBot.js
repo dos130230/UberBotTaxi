@@ -51,7 +51,7 @@ mainStart.on('text', async (ctx) => {
         stemp2[ctx.session.botLang](ctx.chat.id, ctx)
     } else if ((ctx.message.text === '🇺🇸 English')) {
         ctx.session = null
-        ctx.session.botLang = 'uz'
+        ctx.session.botLang = 'en'
         ctx.session.telegram_id = ctx.chat.id
         stemp2[ctx.session.botLang](ctx.chat.id, ctx)
     }
@@ -59,13 +59,20 @@ mainStart.on('text', async (ctx) => {
     return ctx.scene.enter('getCities')
 })
 
-getCities.hears(['↩️ Orqaga', '↩️ Назад'], async (ctx) => {
+getCities.start(async (ctx) => {
+    return stemp2[ctx.session.botLang](ctx.chat.id, ctx)
+    // await ctx.scene.leave('getCities')
+    // return ctx.scene.enter('mainStart')
+})
+
+getCities.hears(['↩️ Orqaga', '↩️ Назад', '↩️ Back'], async (ctx) => {
     stemp1[ctx.session.botLang](ctx.chat.id, ctx)
     await ctx.scene.leave('getCities')
     return ctx.scene.enter('mainStart')
 })
 
-getCities.hears(['🏠 Bosh sahifa', '🏠 Главная'], async (ctx) => {
+
+getCities.hears(['🏠 Bosh sahifa', '🏠 Главная', '🏠 Home'], async (ctx) => {
     stemp1[ctx.session.botLang](ctx.chat.id, ctx)
     await ctx.scene.leave('getCities')
     return ctx.scene.enter('mainStart')
@@ -82,21 +89,24 @@ getCities.on('text', async (ctx) => {
     return ctx.scene.enter('getDistricts')
 })
 
+getDistricts.start(async (ctx) => {
+    return stemp3[ctx.session.botLang](ctx.chat.id, ctx, ctx.session)
+})
 
-getDistricts.hears(['↩️ Orqaga', '↩️ Назад'], async (ctx) => {
+getDistricts.hears(['↩️ Orqaga', '↩️ Назад', '↩️ Back'], async (ctx) => {
     stemp2[ctx.session.botLang](ctx.chat.id, ctx)
     await ctx.scene.leave('getDistricts')
     return ctx.scene.enter('getCities')
 })
 
-getDistricts.hears(['🏠 Bosh sahifa', '🏠 Главная'], async (ctx) => {
+getDistricts.hears(['🏠 Bosh sahifa', '🏠 Главная', '🏠 Home'], async (ctx) => {
     stemp1[ctx.session.botLang](ctx.chat.id, ctx)
     await ctx.scene.leave('getDistricts')
     return ctx.scene.enter('mainStart')
 })
 
 getDistricts.on('text', async (ctx) => {
-    let foundDist = districts.find(dis => dis['name_' + ctx.session.botLang])
+    let foundDist = districts.find(dis => dis['name_' + ctx.session.botLang] == ctx.message.text)
     if (!foundDist) return ctx.reply('Bor maluomotarni kiring!')
 
     ctx.session.districts = foundDist
@@ -106,13 +116,18 @@ getDistricts.on('text', async (ctx) => {
 })
 
 
-getLocation.hears(['↩️ Orqaga', '↩️ Назад'], async (ctx) => {
+getLocation.start(async (ctx) => {
+    return stemp4[ctx.session.botLang](ctx.chat.id, ctx, ctx.session)
+
+})
+
+getLocation.hears(['↩️ Orqaga', '↩️ Назад', '↩️ Back'], async (ctx) => {
     stemp3[ctx.session.botLang](ctx.chat.id, ctx, ctx.session)
     await ctx.scene.leave('getLocation')
     return ctx.scene.enter('getDistricts')
 })
 
-getLocation.hears(['🏠 Bosh sahifa', '🏠 Главная'], async (ctx) => {
+getLocation.hears(['🏠 Bosh sahifa', '🏠 Главная', '🏠 Home'], async (ctx) => {
     stemp1[ctx.session.botLang](ctx.chat.id, ctx)
     await ctx.scene.leave('getLocation')
     return ctx.scene.enter('mainStart')
@@ -125,13 +140,18 @@ getLocation.on('location', async (ctx) => {
     return ctx.scene.enter('getOrderContact')
 })
 
-getOrderContact.hears(['↩️ Orqaga', '↩️ Назад'], async (ctx) => {
+getOrderContact.start((ctx) => {
+    return stemp5[ctx.session.botLang](ctx.chat.id, ctx, ctx.session)
+
+})
+
+getOrderContact.hears(['↩️ Orqaga', '↩️ Назад', '↩️ Back'], async (ctx) => {
     stemp4[ctx.session.botLang](ctx.chat.id, ctx, ctx.session)
     await ctx.scene.leave('getOrderContact')
     return ctx.scene.enter('getLocation')
 })
 
-getOrderContact.hears(['🏠 Bosh sahifa', '🏠 Главная'], async (ctx) => {
+getOrderContact.hears(['🏠 Bosh sahifa', '🏠 Главная', '🏠 Home'], async (ctx) => {
     stemp1[ctx.session.botLang](ctx.chat.id, ctx)
     await ctx.scene.leave('getOrderContact')
     return ctx.scene.enter('mainStart')
@@ -151,13 +171,17 @@ getOrderContact.hears(["📞 Qo'shimcha Contact", "📞 Дополнительн
     return ctx.scene.enter('getOrderDoubleContact')
 })
 
-getOrderDoubleContact.hears(['↩️ Orqaga', '↩️ Назад'], async (ctx) => {
+getOrderDoubleContact.start((ctx) => {
+    return doubleContactStemp[ctx.session.botLang](ctx.chat.id, ctx, ctx.session)
+})
+
+getOrderDoubleContact.hears(['↩️ Orqaga', '↩️ Назад', '↩️ Back'], async (ctx) => {
     stemp4[ctx.session.botLang](ctx.chat.id, ctx, ctx.session)
     await ctx.scene.leave('getOrderDoubleContact')
     return ctx.scene.enter('getOrderContact')
 })
 
-getOrderDoubleContact.hears(['🏠 Bosh sahifa', '🏠 Главная'], async (ctx) => {
+getOrderDoubleContact.hears(['🏠 Bosh sahifa', '🏠 Главная', '🏠 Home'], async (ctx) => {
     stemp1[ctx.session.botLang](ctx.chat.id, ctx)
     await ctx.scene.leave('getOrderDoubleContact')
     return ctx.scene.enter('mainStart')
@@ -182,15 +206,18 @@ getOrderDoubleContact.on('text', async (ctx) => {
 })
 
 
+getOrderCount.start((ctx) => {
+    return stemp6[ctx.session.botLang](ctx.chat.id, ctx, ctx.session)
 
+})
 
-getOrderCount.hears(['↩️ Orqaga', '↩️ Назад'], async (ctx) => {
+getOrderCount.hears(['↩️ Orqaga', '↩️ Назад', '↩️ Back'], async (ctx) => {
     stemp5[ctx.session.botLang](ctx.chat.id, ctx, ctx.session)
     await ctx.scene.leave('getOrderCount')
     return ctx.scene.enter('getOrderContact')
 })
 
-getOrderCount.hears(['🏠 Bosh sahifa', '🏠 Главная'], async (ctx) => {
+getOrderCount.hears(['🏠 Bosh sahifa', '🏠 Главная', '🏠 Home'], async (ctx) => {
     stemp1[ctx.session.botLang](ctx.chat.id, ctx)
     await ctx.scene.leave('getOrderCount')
     return ctx.scene.enter('mainStart')
@@ -204,14 +231,13 @@ getOrderCount.hears(['1️⃣', '2️⃣', '3️⃣', '4️⃣', '🔄 Hamma joy
 })
 
 
-
-getDefinition.hears(['↩️ Orqaga', '↩️ Назад'], async (ctx) => {
+getDefinition.hears(['↩️ Orqaga', '↩️ Назад', '↩️ Back', '/start'], async (ctx) => {
     stemp6[ctx.session.botLang](ctx.chat.id, ctx, ctx.session)
     await ctx.scene.leave('getDefinition')
     return ctx.scene.enter('getOrderCount')
 })
 
-getDefinition.hears(['🏠 Bosh sahifa', '🏠 Главная'], async (ctx) => {
+getDefinition.hears(['🏠 Bosh sahifa', '🏠 Главная', '🏠 Home'], async (ctx) => {
     stemp1[ctx.session.botLang](ctx.chat.id, ctx)
     await ctx.scene.leave('getDefinition')
     return ctx.scene.enter('mainStart')
@@ -224,10 +250,14 @@ getDefinition.action('action1', async (ctx, next) => {
     //....
     //....
 
+
+
+
+
     stemp8[ctx.session.botLang](ctx) // clentga kutish sozini yubordi
     await ctx.scene.leave('getDefinition')
     ctx.scene.enter('canselOrder')
-    
+
 
 
     const promise1 = new Promise((resolve, reject) => {
@@ -256,15 +286,15 @@ getDefinition.action('action3', async (ctx, next) => {
     next()
 })
 
-canselOrder.hears(['❌ Bekor qilish', '❌ Отмена','🏠 Bosh sahifa', '🏠 Главная'], async (ctx) => {
+canselOrder.hears(['❌ Bekor qilish', '❌ Отмена', '🏠 Bosh sahifa', '🏠 Главная', '🏠 Home'], async (ctx) => {
     stemp1[ctx.session.botLang](ctx.chat.id, ctx, ctx.session)
     await ctx.scene.leave('canselOrder')
     ctx.session = null
     return ctx.scene.enter('mainStart')
-    
+
 })
 
-canselOrder.hears(['↩️ Orqaga', '↩️ Назад'], async (ctx) => {
+canselOrder.hears(['↩️ Orqaga', '↩️ Назад', '↩️ Back'], async (ctx) => {
     stemp7[ctx.session.botLang](ctx, ctx.session.botLang)
     await ctx.scene.leave('canselOrder')
     return ctx.scene.enter('getDefinition')

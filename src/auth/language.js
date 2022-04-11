@@ -45,7 +45,7 @@ bot.start((ctx, next) => {
     if (!found) {
         ctx.scene.enter('getAuthLanguage')
         return ctx.reply(
-            'Iltimos bot tilini tanlang!',
+            "Assalimu alaykum UberuzTaxi botga xush kelibsiz\n\nAvval ro'yxatdan o'tish kerak\n\nIltimos bot tilini tanlang!",
             keyboard1[0]
         )
     } else {
@@ -73,7 +73,7 @@ getAuthLanguage.on('text', async (ctx) => {
             reply_markup: {
                 resize_keyboard: true,
                 keyboard: [[{ text: "📲 Conctact", request_contact: true, },], ['↩️ Orqaga', '🏠 Bosh sahifa']],
-                one_time_keyboard: true,
+                // one_time_keyboard: true,
             },
         })
     } else if ((ctx.message.text === '🇳🇱 Russian')) {
@@ -187,9 +187,10 @@ authSendBaza.hears('️✅ Yaxshi', async (ctx) => {
     users.push(ctx.session)
     readJson.insert('users', users)
     ctx.session = null
-    ctx.reply('Uberuz Botga xush kelibsiz!!!!', keyboard1[0])
+
     await ctx.scene.leave('authSendBaza')
-    return ctx.scene.enter('mainStart')
+    await ctx.scene.enter('mainStart')
+    return ctx.reply('Uberuz Botga xush kelibsiz!!!!', keyboard1[0])
 
 })
 

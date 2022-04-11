@@ -13,7 +13,8 @@ const keyboard1 = [
 
 const keyboard2 = [
     Keyboard.make([...cities.map(el => el.name_uz), '↩️ Orqaga', '🏠 Bosh sahifa'], { columns: 2 }).reply(),
-    Keyboard.make([...cities.map(el => el.name_ru), '↩️ Назад', '🏠 Главная'], { columns: 2 }).reply()
+    Keyboard.make([...cities.map(el => el.name_ru), '↩️ Назад', '🏠 Главная'], { columns: 2 }).reply(),
+    Keyboard.make([...cities.map(el => el.name_en), '↩️ Back', '🏠 Home'], { columns: 2 }).reply()
 
 ]
 
@@ -24,7 +25,11 @@ const keyboard3 = (id, type) => {
             return arr
         } else return arr
     }, [])
-    return Keyboard.make(type == "name_uz" ? [...array, '↩️ Orqaga', '🏠 Bosh sahifa'] : [...array, '↩️ Назад', '🏠 Главная'],
+
+    return Keyboard.make(
+        type == "name_uz" ? [...array, '↩️ Orqaga', '🏠 Bosh sahifa'] :
+            type == "name_ru" ? [...array, '↩️ Назад', '🏠 Главная'] :
+                [...array, '↩️ Back', '🏠 Home'],
         {
             columns: 2,
         }).reply()
@@ -33,20 +38,23 @@ const keyboard3 = (id, type) => {
 
 const keyboard4 = [
     Keyboard.make([['1️⃣', '2️⃣', '3️⃣', '4️⃣'], ['🔄 Hamma joyni band qilish'], ['↩️ Orqaga', '🏠 Bosh sahifa']], { columns: 4, }).reply(),
-    Keyboard.make([['1️⃣', '2️⃣', '3️⃣', '4️⃣'], ['🔄 Занят везде'], ['↩️ Назад', '🏠 Главная']], { columns: 4, }).reply()
+    Keyboard.make([['1️⃣', '2️⃣', '3️⃣', '4️⃣'], ['🔄 Занят везде'], ['↩️ Назад', '🏠 Главная']], { columns: 4, }).reply(),
+    Keyboard.make([['1️⃣', '2️⃣', '3️⃣', '4️⃣'], ['🔄 Busy everywhere'], ['↩️ Back', '🏠 Home']], { columns: 4, }).reply()
 
 ]
 
 
 const keyboard5 = {
-    uz : Keyboard.make(['↩️ Orqaga', '🏠 Bosh sahifa', '❌ Bekor qilish'], { columns: 2, }).reply(),
-    ru :   Keyboard.make(['↩️ Назад', '🏠 Главная', '❌ Отмена'], { columns: 2, }).reply()
+    uz: Keyboard.make(['↩️ Orqaga', '🏠 Bosh sahifa', '❌ Bekor qilish'], { columns: 2, }).reply(),
+    ru: Keyboard.make(['↩️ Назад', '🏠 Главная', '❌ Отмена'], { columns: 2, }).reply(),
+    en: Keyboard.make(['↩️ Back', '🏠 Home', '❌ Cancel'], { columns: 2, }).reply(),
 }
-    
+
 
 const backHome = [
     Keyboard.make(['↩️ Orqaga', '🏠 Bosh sahifa'], { columns: 2, }).reply(),
-    Keyboard.make(['↩️ Назад', '🏠 Главная'], { columns: 2, }).reply()
+    Keyboard.make(['↩️ Назад', '🏠 Главная'], { columns: 2, }).reply(),
+    Keyboard.make(['↩️ Back', '🏠 Home'], { columns: 2, }).reply()
 
 ]
 
@@ -60,6 +68,11 @@ const keyboard6 = {
         fast: Keyboard.make([Key.callback('Торопиться', 'action1')]).inline(),
         standart: Keyboard.make([Key.callback('Стандарт ', 'action2')]).inline(),
         driver: Keyboard.make([Key.callback('📝 О водителе', 'action3')]).inline()
+    },
+    en: {
+        fast: Keyboard.make([Key.callback('Hurry', 'action1')]).inline(),
+        standart: Keyboard.make([Key.callback('Standard ', 'action2')]).inline(),
+        driver: Keyboard.make([Key.callback('📝 About the driver', 'action3')]).inline()
     }
 }
 

@@ -1,6 +1,7 @@
 [
   {
     "name_uz": "Yunusobod tumani",
+    "name_en": "Yunusobod district",    
     "name_ru": "Юнусабад",
     "coordinates": {
       "lng": 69.2878059,
@@ -11,6 +12,7 @@
   },
   {
     "name_uz": "Mirobod tumani",
+    "name_en": "Mirobod district",    
     "name_ru": "Мирабад",
     "coordinates": {
       "lng": 69.2671163,
@@ -21,6 +23,7 @@
   },
   {
     "name_uz": "Olmazor tumani",
+    "name_en": "Olmazor district",    
     "name_ru": "Алмазарский",
     "coordinates": {
       "lng": 69.2189291,
@@ -31,6 +34,7 @@
   },
   {
     "name_uz": "Mirzo Ulugʻbek tumani",
+    "name_en": "Mirzo Ulugʻbek district",    
     "name_ru": "Мирзо-Улугбекский",
     "coordinates": {
       "lng": 69.3389711,
@@ -41,6 +45,7 @@
   },
   {
     "name_uz": "Sergeli tumani",
+    "name_en": "Sergeli district",    
     "name_ru": "Сергелийский",
     "coordinates": {
       "lng": 69.231245,
@@ -51,6 +56,7 @@
   },
   {
     "name_uz": "Chilonzor tumani",
+    "name_en": "Chilonzor district",    
     "name_ru": "Чиланзар",
     "coordinates": {
       "lng": 69.2040879,
@@ -61,6 +67,7 @@
   },
   {
     "name_uz": "Shayxontohur tumani",
+    "name_en": "Shayxontohur district",    
     "name_ru": "Шайхантаур",
     "coordinates": {
       "lng": 69.2306548,
@@ -71,6 +78,7 @@
   },
   {
     "name_uz": "Yakkasaroy tumani",
+    "name_en": "Yakkasaroy district",    
     "name_ru": "Яккасарай",
     "coordinates": {
       "lng": 69.2487803,
@@ -81,6 +89,7 @@
   },
   {
     "name_uz": "Yashnobod tumani",
+    "name_en": "Yashnobod district",    
     "name_ru": "Яшнабад",
     "coordinates": {
       "lng": 69.3336204,
@@ -91,6 +100,7 @@
   },
   {
     "name_uz": "Bektemir tumani",
+    "name_en": "Bektemir district",    
     "name_ru": "Бектемир",
     "coordinates": {
       "lng": 69.3391954,
@@ -101,6 +111,7 @@
   },
   {
     "name_uz": "Oqqoʻrgʻon tumani",
+    "name_en": "Oqqoʻrgʻon district",    
     "name_ru": "Аккурганский район",
     "coordinates": {
       "lng": 69.0430306,
@@ -111,6 +122,7 @@
   },
   {
     "name_uz": "Ohangaron tumani",
+    "name_en": "Ohangaron district",    
     "name_ru": "Ахангаранский район",
     "coordinates": {
       "lng": 70.0747513,
@@ -121,6 +133,7 @@
   },
   {
     "name_uz": "Bekobod tumani",
+    "name_en": "Bekobod district",    
     "name_ru": "Бекабадский район",
     "coordinates": {
       "lng": 69.2582381,
@@ -131,6 +144,7 @@
   },
   {
     "name_uz": "Boʻstonliq tumani",
+    "name_en": "Boʻstonliq district",    
     "name_ru": "Бостанлыкский район",
     "coordinates": {
       "lng": 69.9501733,
@@ -141,6 +155,7 @@
   },
   {
     "name_uz": "Boʻka tumani",
+    "name_en": "Boʻka district",    
     "name_ru": "Букинский район",
     "coordinates": {
       "lng": 69.2037606,
@@ -151,6 +166,7 @@
   },
   {
     "name_uz": "Zangiota tumani",
+    "name_en": "Zangiota district",    
     "name_ru": "Зангиатинский район",
     "coordinates": {
       "lng": 69.2053258,
@@ -161,6 +177,7 @@
   },
   {
     "name_uz": "Qibray tumani",
+    "name_en": "Qibray district",    
     "name_ru": "Кибрайский район",
     "coordinates": {
       "lng": 69.5901429,
@@ -171,6 +188,7 @@
   },
   {
     "name_uz": "Quyi chirchiq tumani",
+    "name_en": "Quyi chirchiq district",    
     "name_ru": "Куйичирчикский район",
     "coordinates": {
       "lng": 68.9260483,
@@ -181,6 +199,7 @@
   },
   {
     "name_uz": "Parkent tumani",
+    "name_en": "Parkent district",    
     "name_ru": "Паркентский район",
     "coordinates": {
       "lng": 69.6803275,
@@ -191,6 +210,7 @@
   },
   {
     "name_uz": "Piskent tumani",
+    "name_en": "Piskent district",    
     "name_ru": "Пскентский район",
     "coordinates": {
       "lng": 69.5936205,
@@ -201,6 +221,7 @@
   },
   {
     "name_uz": "Oʻrta Chirchiq tumani",
+    "name_en": "Oʻrta Chirchiq district",    
     "name_ru": "Уртачирчикский район",
     "coordinates": {
       "lng": 69.3549711,
@@ -211,6 +232,7 @@
   },
   {
     "name_uz": "Chinoz tumani",
+    "name_en": "Chinoz district",    
     "name_ru": "Чиназский район",
     "coordinates": {
       "lng": 68.7501824,
@@ -221,6 +243,7 @@
   },
   {
     "name_uz": "Yuqori Chirchiq tumani",
+    "name_en": "Yuqori Chirchiq district",    
     "name_ru": "Юкоричирчикский район",
     "coordinates": {
       "lng": 69.5295802,
@@ -231,6 +254,7 @@
   },
   {
     "name_uz": "Yangiyoʻl tumani",
+    "name_en": "Yangiyoʻl district",    
     "name_ru": "Янгиюльский район",
     "coordinates": {
       "lng": 69.0688944,
@@ -241,6 +265,7 @@
   },
   {
     "name_uz": "Samarqand tumani",
+    "name_en": "Samarqand district",    
     "name_ru": "Самаркандский район",
     "coordinates": {
       "lng": 66.9759718,
@@ -251,6 +276,7 @@
   },
   {
     "name_uz": "Bulungʻur tumani",
+    "name_en": "Bulungʻur district",    
     "name_ru": "Булунгурский район",
     "coordinates": {
       "lng": 67.2743979,
@@ -261,6 +287,7 @@
   },
   {
     "name_uz": "Ishtixon tumani",
+    "name_en": "Ishtixon district",    
     "name_ru": "Иштыханский район",
     "coordinates": {
       "lng": 66.4882576,
@@ -271,6 +298,7 @@
   },
   {
     "name_uz": "Jomboy tumani",
+    "name_en": "Jomboy district",    
     "name_ru": "Джамбайский район",
     "coordinates": {
       "lng": 67.1013868,
@@ -281,6 +309,7 @@
   },
   {
     "name_uz": "Kattaqoʻrgʻon tumani",
+    "name_en": "Kattaqoʻrgʻon district",    
     "name_ru": "Каттакурганский район",
     "coordinates": {
       "lng": 66.2300465,
@@ -291,6 +320,7 @@
   },
   {
     "name_uz": "Qoʻshrabot tumani",
+    "name_en": "Qoʻshrabot district",    
     "name_ru": "Кошрабадский район",
     "coordinates": {
       "lng": 66.6446879,
@@ -301,6 +331,7 @@
   },
   {
     "name_uz": "Narpay tumani",
+    "name_en": "Narpay district",    
     "name_ru": "Нарпайский район",
     "coordinates": {
       "lng": 65.9255276,
@@ -311,6 +342,7 @@
   },
   {
     "name_uz": "Nurobod tumani",
+    "name_en": "Nurobod district",    
     "name_ru": "Нурабадский район",
     "coordinates": {
       "lng": 66.2931169,
@@ -321,6 +353,7 @@
   },
   {
     "name_uz": "Oqdaryo tumani",
+    "name_en": "Oqdaryo district",    
     "name_ru": "Акдарьинский район",
     "coordinates": {
       "lng": 66.7506844,
@@ -331,6 +364,7 @@
   },
   {
     "name_uz": "Paxtachi tumani",
+    "name_en": "Paxtachi district",    
     "name_ru": "Пахтачийский район",
     "coordinates": {
       "lng": 65.6782024,
@@ -341,6 +375,7 @@
   },
   {
     "name_uz": "Payariq tumani",
+    "name_en": "Payariq district",    
     "name_ru": "Пайарыкский район",
     "coordinates": {
       "lng": 66.8581192,
@@ -351,6 +386,7 @@
   },
   {
     "name_uz": "Pastdargʻom tumani",
+    "name_en": "Pastdargʻom district",    
     "name_ru": "Пастдаргомский район",
     "coordinates": {
       "lng": 66.6517732,
@@ -361,6 +397,7 @@
   },
   {
     "name_uz": "Toyloq tumani",
+    "name_en": "Toyloq district",    
     "name_ru": "Тайлакский район",
     "coordinates": {
       "lng": 67.1733607,
@@ -371,6 +408,7 @@
   },
   {
     "name_uz": "Urgut tumani",
+    "name_en": "Urgut district",    
     "name_ru": "Ургутский район",
     "coordinates": {
       "lng": 67.2461061,
@@ -381,6 +419,7 @@
   },
   {
     "name_uz": "Oltinko`l tuman",
+    "name_en": "Oltinko`ldistrict",    
     "name_ru": "Алтынкульский район",
     "coordinates": {
       "lng": 72.1619529,
@@ -391,6 +430,7 @@
   },
   {
     "name_uz": "Andijon tuman",
+    "name_en": "Andijondistrict",    
     "name_ru": "Андижанский район",
     "coordinates": {
       "lng": 72.3449532,
@@ -401,6 +441,7 @@
   },
   {
     "name_uz": "Asaka tuman",
+    "name_en": "Asakadistrict",    
     "name_ru": "Асакинский район",
     "coordinates": {
       "lng": 72.2268847,
@@ -411,6 +452,7 @@
   },
   {
     "name_uz": "Baliqchi tuman",
+    "name_en": "Baliqchidistrict",    
     "name_ru": "Балыкчинский район",
     "coordinates": {
       "lng": 71.9491905,
@@ -421,6 +463,7 @@
   },
   {
     "name_uz": "Bo`ston tuman",
+    "name_en": "Bo`stondistrict",    
     "name_ru": "Бустанский район",
     "coordinates": {
       "lng": 71.8843153,
@@ -431,6 +474,7 @@
   },
   {
     "name_uz": "Buloqboshi tuman",
+    "name_en": "Buloqboshidistrict",    
     "name_ru": "Булакбашинский район",
     "coordinates": {
       "lng": 72.3959085,
@@ -441,6 +485,7 @@
   },
   {
     "name_uz": "Jalaquduq tuman",
+    "name_en": "Jalaquduqdistrict",    
     "name_ru": "Джалакудукский район",
     "coordinates": {
       "lng": 72.6055034,
@@ -451,6 +496,7 @@
   },
   {
     "name_uz": "Izboskan tuman",
+    "name_en": "Izboskandistrict",    
     "name_ru": "Избасканский район",
     "coordinates": {
       "lng": 72.2498829,
@@ -461,6 +507,7 @@
   },
   {
     "name_uz": "Qo`rg`ontepa tuman",
+    "name_en": "Qo`rg`ontepadistrict",    
     "name_ru": "Кургантепинский район",
     "coordinates": {
       "lng": 72.7544315,
@@ -471,6 +518,7 @@
   },
   {
     "name_uz": "Marhamat tuman",
+    "name_en": "Marhamatdistrict",    
     "name_ru": "Мархаматский район",
     "coordinates": {
       "lng": 72.3143864,
@@ -481,6 +529,7 @@
   },
   {
     "name_uz": "Paxtaobod tuman",
+    "name_en": "Paxtaoboddistrict",    
     "name_ru": "Пахтаабадский район",
     "coordinates": {
       "lng": 72.4883965,
@@ -491,6 +540,7 @@
   },
   {
     "name_uz": "Ulug`nor tuman",
+    "name_en": "Ulug`nordistrict",    
     "name_ru": "Улугнорский район",
     "coordinates": {
       "lng": 71.5402347,
@@ -501,6 +551,7 @@
   },
   {
     "name_uz": "Xo`jaobod tuman",
+    "name_en": "Xo`jaoboddistrict",    
     "name_ru": "Ходжаабадский район",
     "coordinates": {
       "lng": 72.5617083,
@@ -511,6 +562,7 @@
   },
   {
     "name_uz": "Shahrixon tuman",
+    "name_en": "Shahrixondistrict",    
     "name_ru": "Шахриханский район",
     "coordinates": {
       "lng": 72.0541959,
@@ -521,6 +573,7 @@
   },
   {
     "name_uz": "Arnasoy tumani",
+    "name_en": "Arnasoy district",    
     "name_ru": "Арнасайский район,",
     "coordinates": {
       "lng": 67.7672513,
@@ -531,6 +584,7 @@
   },
   {
     "name_uz": "Baxmal tumani",
+    "name_en": "Baxmal district",    
     "name_ru": "Бахмальский район",
     "coordinates": {
       "lng": 67.685194,
@@ -541,6 +595,7 @@
   },
   {
     "name_uz": "Gʻallaorol tumani",
+    "name_en": "Gʻallaorol district",    
     "name_ru": "Галляаральский район,",
     "coordinates": {
       "lng": 67.5337376,
@@ -551,6 +606,7 @@
   },
   {
     "name_uz": "Jizzax tumani",
+    "name_en": "Jizzax district",    
     "name_ru": "Джизакский район,",
     "coordinates": {
       "lng": 67.8739272,
@@ -561,6 +617,7 @@
   },
   {
     "name_uz": "Doʻstlik tumani",
+    "name_en": "Doʻstlik district",    
     "name_ru": "Дустликский район",
     "coordinates": {
       "lng": 68.0406432,
@@ -571,6 +628,7 @@
   },
   {
     "name_uz": "Zomin tumani",
+    "name_en": "Zomin district",    
     "name_ru": "Зааминский район,",
     "coordinates": {
       "lng": 68.3925744,
@@ -581,6 +639,7 @@
   },
   {
     "name_uz": "Zarbdor tumani",
+    "name_en": "Zarbdor district",    
     "name_ru": "Зарбдарский район,",
     "coordinates": {
       "lng": 68.1663336,
@@ -591,6 +650,7 @@
   },
   {
     "name_uz": "Zafarobod tumani",
+    "name_en": "Zafarobod district",    
     "name_ru": "Зафарабадский район,",
     "coordinates": {
       "lng": 68.8530755,
@@ -601,6 +661,7 @@
   },
   {
     "name_uz": "Mirzachoʻl tumani",
+    "name_en": "Mirzachoʻl district",    
     "name_ru": "Мирзачульский район, ",
     "coordinates": {
       "lng": 68.1738544,
@@ -611,6 +672,7 @@
   },
   {
     "name_uz": "Paxtakor tumani",
+    "name_en": "Paxtakor district",    
     "name_ru": "Пахтакорский район",
     "coordinates": {
       "lng": 67.9672489,
@@ -621,6 +683,7 @@
   },
   {
     "name_uz": "Forish tumani",
+    "name_en": "Forish district",    
     "name_ru": "Фаришский район",
     "coordinates": {
       "lng": 67.1914275,
@@ -631,6 +694,7 @@
   },
   {
     "name_uz": "Yangiobod tumani",
+    "name_en": "Yangiobod district",    
     "name_ru": "Янгиабадский район",
     "coordinates": {
       "lng": 68.6740342,
@@ -641,6 +705,7 @@
   },
   {
     "name_uz": "Chiroqchi tumani ",
+    "name_en": "Chiroqchi tdistrict",    
     "name_ru": "Чиракчинский район",
     "coordinates": {
       "lng": 66.2328364,
@@ -651,6 +716,7 @@
   },
   {
     "name_uz": "Dehqonobod tumani",
+    "name_en": "Dehqonobod district",    
     "name_ru": "Дехканабадский район",
     "coordinates": {
       "lng": 66.4776695,
@@ -661,6 +727,7 @@
   },
   {
     "name_uz": "G'uzor tumani",
+    "name_en": "G'uzor district",    
     "name_ru": "Гузарский район ",
     "coordinates": {
       "lng": 66.2527822,
@@ -671,6 +738,7 @@
   },
   {
     "name_uz": "Qamashi tumani",
+    "name_en": "Qamashi district",    
     "name_ru": "Камашинский район",
     "coordinates": {
       "lng": 66.4811024,
@@ -681,6 +749,7 @@
   },
   {
     "name_uz": "Qarshi tumani",
+    "name_en": "Qarshi district",    
     "name_ru": "Каршинский район",
     "coordinates": {
       "lng": 65.607254,
@@ -691,6 +760,7 @@
   },
   {
     "name_uz": "Koson tumani",
+    "name_en": "Koson district",    
     "name_ru": "Касанский район ",
     "coordinates": {
       "lng": 65.5979047,
@@ -701,6 +771,7 @@
   },
   {
     "name_uz": "Kasbi tumani",
+    "name_en": "Kasbi district",    
     "name_ru": "Касбийский район",
     "coordinates": {
       "lng": 65.4032303,
@@ -711,6 +782,7 @@
   },
   {
     "name_uz": "Kitob tumani",
+    "name_en": "Kitob district",    
     "name_ru": "Китабский район",
     "coordinates": {
       "lng": 66.8246537,
@@ -721,6 +793,7 @@
   },
   {
     "name_uz": "Mirishkor tumani",
+    "name_en": "Mirishkor district",    
     "name_ru": "Миришкорский район ",
     "coordinates": {
       "lng": 65.209459,
@@ -731,6 +804,7 @@
   },
   {
     "name_uz": "Muborak tumani",
+    "name_en": "Muborak district",    
     "name_ru": "Мубарекский район",
     "coordinates": {
       "lng": 65.204263,
@@ -741,6 +815,7 @@
   },
   {
     "name_uz": "Nishon tumani",
+    "name_en": "Nishon district",    
     "name_ru": "Нишанский район",
     "coordinates": {
       "lng": 65.5194152,
@@ -751,6 +826,7 @@
   },
   {
     "name_uz": "Shahrisabz tumani",
+    "name_en": "Shahrisabz district",    
     "name_ru": "Шахрисабзский район ",
     "coordinates": {
       "lng": 66.85635,
@@ -761,6 +837,7 @@
   },
   {
     "name_uz": "Yakkabog 'tumani",
+    "name_en": "Yakkabog 'district",    
     "name_ru": "Яккабагский район ",
     "coordinates": {
       "lng": 66.7149329,
@@ -771,6 +848,7 @@
   },
   {
     "name_uz": "Konimex tumani",
+    "name_en": "Konimex district",    
     "name_ru": "Канимехский район",
     "coordinates": {
       "lng": 64.9845888,
@@ -781,6 +859,7 @@
   },
   {
     "name_uz": "Karmana tumani",
+    "name_en": "Karmana district",    
     "name_ru": "Карманинский район",
     "coordinates": {
       "lng": 65.3561305,
@@ -791,6 +870,7 @@
   },
   {
     "name_uz": "Qiziltepa tumani",
+    "name_en": "Qiziltepa district",    
     "name_ru": "Кызылтепинский район",
     "coordinates": {
       "lng": 64.8305557,
@@ -801,6 +881,7 @@
   },
   {
     "name_uz": "Navbahor tumani",
+    "name_en": "Navbahor district",    
     "name_ru": "Навбахорский район",
     "coordinates": {
       "lng": 65.2285232,
@@ -811,6 +892,7 @@
   },
   {
     "name_uz": "Nurota tumani",
+    "name_en": "Nurota district",    
     "name_ru": "Нуратинский район",
     "coordinates": {
       "lng": 65.7007375,
@@ -821,6 +903,7 @@
   },
   {
     "name_uz": "Tomdi tumani",
+    "name_en": "Tomdi district",    
     "name_ru": "Тамдынский район",
     "coordinates": {
       "lng": 64.6111965,
@@ -831,6 +914,7 @@
   },
   {
     "name_uz": "Uchquduq tumani",
+    "name_en": "Uchquduq district",    
     "name_ru": "Учкудукский район",
     "coordinates": {
       "lng": 63.5799616,
@@ -841,6 +925,7 @@
   },
   {
     "name_uz": "Xatirchi tumani",
+    "name_en": "Xatirchi district",    
     "name_ru": "Хатырчинский район",
     "coordinates": {
       "lng": 65.9757959,
@@ -851,6 +936,7 @@
   },
   {
     "name_uz": "Kosonsoy tumani",
+    "name_en": "Kosonsoy district",    
     "name_ru": "Касансайский район",
     "coordinates": {
       "lng": 71.5513337,
@@ -861,6 +947,7 @@
   },
   {
     "name_uz": "Mingbuloq tumani",
+    "name_en": "Mingbuloq district",    
     "name_ru": "Мингбулакский район",
     "coordinates": {
       "lng": 71.4623508,
@@ -871,6 +958,7 @@
   },
   {
     "name_uz": "Namangan tumani",
+    "name_en": "Namangan district",    
     "name_ru": "Наманганский район",
     "coordinates": {
       "lng": 71.6168237,
@@ -881,6 +969,7 @@
   },
   {
     "name_uz": "Norin tumani (Oʻzbekiston)",
+    "name_en": "Norin tumani (Oʻzbekdistrict",    
     "name_ru": "Нарынский район",
     "coordinates": {
       "lng": 72.0979315,
@@ -891,6 +980,7 @@
   },
   {
     "name_uz": "Pop tumani",
+    "name_en": "Pop district",    
     "name_ru": "Папский район",
     "coordinates": {
       "lng": 70.7286466,
@@ -901,6 +991,7 @@
   },
   {
     "name_uz": "Toʻraqoʻrgʻon tumani",
+    "name_en": "Toʻraqoʻrgʻon district",    
     "name_ru": "Туракурганский район",
     "coordinates": {
       "lng": 71.5104519,
@@ -911,6 +1002,7 @@
   },
   {
     "name_uz": "Uychi tumani",
+    "name_en": "Uychi district",    
     "name_ru": "Уйчинский район",
     "coordinates": {
       "lng": 71.8677433,
@@ -921,6 +1013,7 @@
   },
   {
     "name_uz": "Uchqoʻrgʻon tumani",
+    "name_en": "Uchqoʻrgʻon district",    
     "name_ru": "Учкурганский район",
     "coordinates": {
       "lng": 72.0813278,
@@ -931,6 +1024,7 @@
   },
   {
     "name_uz": "Chortoq tumani",
+    "name_en": "Chortoq district",    
     "name_ru": "Чартакский район",
     "coordinates": {
       "lng": 71.81514,
@@ -941,6 +1035,7 @@
   },
   {
     "name_uz": "Chust tumani",
+    "name_en": "Chust district",    
     "name_ru": "Чустский район",
     "coordinates": {
       "lng": 71.2266119,
@@ -951,6 +1046,7 @@
   },
   {
     "name_uz": "Yangiqoʻrgʻon tumani",
+    "name_en": "Yangiqoʻrgʻon district",    
     "name_ru": "Янгикурганский район",
     "coordinates": {
       "lng": 71.7269203,
@@ -961,6 +1057,7 @@
   },
   {
     "name_uz": "Oltinsoy tumani",
+    "name_en": "Oltinsoy district",    
     "name_ru": "Алтынсайский",
     "coordinates": {
       "lng": 67.7611857,
@@ -971,6 +1068,7 @@
   },
   {
     "name_uz": "Angor tumani",
+    "name_en": "Angor district",    
     "name_ru": "Ангорский",
     "coordinates": {
       "lng": 67.11368,
@@ -981,6 +1079,7 @@
   },
   {
     "name_uz": "Boysun tumani",
+    "name_en": "Boysun district",    
     "name_ru": "Байсунский",
     "coordinates": {
       "lng": 67.205318,
@@ -991,6 +1090,7 @@
   },
   {
     "name_uz": "Denov tumani",
+    "name_en": "Denov district",    
     "name_ru": "Денауский",
     "coordinates": {
       "lng": 67.894692,
@@ -1001,6 +1101,7 @@
   },
   {
     "name_uz": "Jarqoʻrgʻon tumani",
+    "name_en": "Jarqoʻrgʻon district",    
     "name_ru": "Джаркурганский",
     "coordinates": {
       "lng": 67.4169407,
@@ -1011,6 +1112,7 @@
   },
   {
     "name_uz": "Qiziriq tumani",
+    "name_en": "Qiziriq district",    
     "name_ru": "Кизирикский",
     "coordinates": {
       "lng": 67.236127,
@@ -1021,6 +1123,7 @@
   },
   {
     "name_uz": "Qumqoʻrgʻon tumani",
+    "name_en": "Qumqoʻrgʻon district",    
     "name_ru": "Кумкурганский",
     "coordinates": {
       "lng": 67.5905883,
@@ -1031,6 +1134,7 @@
   },
   {
     "name_uz": "Muzrabot tumani",
+    "name_en": "Muzrabot district",    
     "name_ru": "Музрабадский",
     "coordinates": {
       "lng": 66.9267587,
@@ -1041,6 +1145,7 @@
   },
   {
     "name_uz": "Sariosiyo tumani",
+    "name_en": "Sariosiyo district",    
     "name_ru": "Сариасийский",
     "coordinates": {
       "lng": 68.0918575,
@@ -1051,6 +1156,7 @@
   },
   {
     "name_uz": "Termiz tumani",
+    "name_en": "Termiz district",    
     "name_ru": "Термезский",
     "coordinates": {
       "lng": 67.2483421,
@@ -1061,6 +1167,7 @@
   },
   {
     "name_uz": "Uzun tumani",
+    "name_en": "Uzun district",    
     "name_ru": "Узунский",
     "coordinates": {
       "lng": 67.9981641,
@@ -1071,6 +1178,7 @@
   },
   {
     "name_uz": "Sherobod tumani",
+    "name_en": "Sherobod district",    
     "name_ru": "Шерабадский",
     "coordinates": {
       "lng": 67.0038903,
@@ -1081,6 +1189,7 @@
   },
   {
     "name_uz": "Shoʻrchi tumani",
+    "name_en": "Shoʻrchi district",    
     "name_ru": "Шурчинский",
     "coordinates": {
       "lng": 67.7901698,
@@ -1091,6 +1200,7 @@
   },
   {
     "name_uz": "Oqoltin tumani.",
+    "name_en": "Oqoltin tdistrict",    
     "name_ru": "Акалтынский район",
     "coordinates": {
       "lng": 68.413246,
@@ -1101,6 +1211,7 @@
   },
   {
     "name_uz": "Boyovut tumani",
+    "name_en": "Boyovut district",    
     "name_ru": "Баяутский район",
     "coordinates": {
       "lng": 69.0231061,
@@ -1111,6 +1222,7 @@
   },
   {
     "name_uz": "Guliston tumani.",
+    "name_en": "Guliston tdistrict",    
     "name_ru": "Гулистанский район",
     "coordinates": {
       "lng": 68.7875362,
@@ -1121,6 +1233,7 @@
   },
   {
     "name_uz": "Mirzaobod tumani",
+    "name_en": "Mirzaobod district",    
     "name_ru": "Мирзаабадский район",
     "coordinates": {
       "lng": 68.5438571,
@@ -1131,6 +1244,7 @@
   },
   {
     "name_uz": "Sayxunobod tumani",
+    "name_en": "Sayxunobod district",    
     "name_ru": "Сайхунабадский район",
     "coordinates": {
       "lng": 68.0880749,
@@ -1141,6 +1255,7 @@
   },
   {
     "name_uz": "Sardoba tumani",
+    "name_en": "Sardoba district",    
     "name_ru": "Сардобинский район",
     "coordinates": {
       "lng": 68.8898625,
@@ -1151,6 +1266,7 @@
   },
   {
     "name_uz": "Sirdaryo tumani.",
+    "name_en": "Sirdaryo tdistrict",    
     "name_ru": " Сырдарьинский район ",
     "coordinates": {
       "lng": 68.7766183,
@@ -1161,6 +1277,7 @@
   },
   {
     "name_uz": "Oltiariq tumani",
+    "name_en": "Oltiariq district",    
     "name_ru": "Алтыарыкский район",
     "coordinates": {
       "lng": 71.5046554,
@@ -1171,6 +1288,7 @@
   },
   {
     "name_uz": "Bag’dod tumani",
+    "name_en": "Bag’dod district",    
     "name_ru": " Багдадский район",
     "coordinates": {
       "lng": 71.221,
@@ -1181,6 +1299,7 @@
   },
   {
     "name_uz": "Beshariq tumani",
+    "name_en": "Beshariq district",    
     "name_ru": "Бешарыкский район",
     "coordinates": {
       "lng": 70.616,
@@ -1191,6 +1310,7 @@
   },
   {
     "name_uz": "Buvayda tumani",
+    "name_en": "Buvayda district",    
     "name_ru": "Бувайдинский район",
     "coordinates": {
       "lng": 71.522048,
@@ -1201,6 +1321,7 @@
   },
   {
     "name_uz": "Dang’ara tumani",
+    "name_en": "Dang’ara district",    
     "name_ru": "Дангаринский район ",
     "coordinates": {
       "lng": 70.917006,
@@ -1211,6 +1332,7 @@
   },
   {
     "name_uz": "Quva tumani",
+    "name_en": "Quva district",    
     "name_ru": "Кувинский район",
     "coordinates": {
       "lng": 72.061667,
@@ -1221,6 +1343,7 @@
   },
   {
     "name_uz": "Qo’shtepa tumani",
+    "name_en": "Qo’shtepa district",    
     "name_ru": "Куштепинский район",
     "coordinates": {
       "lng": 71.907098,
@@ -1231,6 +1354,7 @@
   },
   {
     "name_uz": "Rishton tumani",
+    "name_en": "Rishton district",    
     "name_ru": "Риштанский район",
     "coordinates": {
       "lng": 71.284722,
@@ -1241,6 +1365,7 @@
   },
   {
     "name_uz": "So’x tumani",
+    "name_en": "So’x district",    
     "name_ru": "Сохский район",
     "coordinates": {
       "lng": 71.133333,
@@ -1251,6 +1376,7 @@
   },
   {
     "name_uz": "Toshloq tumani",
+    "name_en": "Toshloq district",    
     "name_ru": "Ташлакский район",
     "coordinates": {
       "lng": 71.832,
@@ -1261,6 +1387,7 @@
   },
   {
     "name_uz": "O’zbekiston tumani",
+    "name_en": "O’zbekiston district",    
     "name_ru": "Узбекистанский район",
     "coordinates": {
       "lng": 70.803,
@@ -1271,6 +1398,7 @@
   },
   {
     "name_uz": "Uchko’prik tumani",
+    "name_en": "Uchko’prik district",    
     "name_ru": "Учкуприкский район",
     "coordinates": {
       "lng": 71.0258,
@@ -1281,6 +1409,7 @@
   },
   {
     "name_uz": "Farg’ona tumani",
+    "name_en": "Farg’ona district",    
     "name_ru": "Ферганский район",
     "coordinates": {
       "lng": 71.31,
@@ -1291,6 +1420,7 @@
   },
   {
     "name_uz": "Furqat tumani",
+    "name_en": "Furqat district",    
     "name_ru": "Фуркатский район",
     "coordinates": {
       "lng": 70.741,
@@ -1301,6 +1431,7 @@
   },
   {
     "name_uz": "Yozyavon tumani",
+    "name_en": "Yozyavon district",    
     "name_ru": "Язъяванский район",
     "coordinates": {
       "lng": 71.643056,
@@ -1311,6 +1442,7 @@
   },
   {
     "name_uz": "Bogʻot tumani",
+    "name_en": "Bogʻot district",    
     "name_ru": "Багатский район",
     "coordinates": {
       "lng": 60.8151667,
@@ -1321,6 +1453,7 @@
   },
   {
     "name_uz": "Gurlan tumani",
+    "name_en": "Gurlan district",    
     "name_ru": "Гурленский район",
     "coordinates": {
       "lng": 60.3797576,
@@ -1331,6 +1464,7 @@
   },
   {
     "name_uz": "Qoʻshkoʻpir tumani",
+    "name_en": "Qoʻshkoʻpir district",    
     "name_ru": "Кошкупырский район",
     "coordinates": {
       "lng": 60.3481237,
@@ -1341,6 +1475,7 @@
   },
   {
     "name_uz": "Urganch tumani",
+    "name_en": "Urganch district",    
     "name_ru": "Ургенчский район",
     "coordinates": {
       "lng": 60.5925417,
@@ -1351,6 +1486,7 @@
   },
   {
     "name_uz": "Hazorasp tumani",
+    "name_en": "Hazorasp district",    
     "name_ru": "Хазараспский район ",
     "coordinates": {
       "lng": 61.0829991,
@@ -1361,6 +1497,7 @@
   },
   {
     "name_uz": "Xonqa tumani",
+    "name_en": "Xonqa district",    
     "name_ru": "Ханкинский район",
     "coordinates": {
       "lng": 60.7813072,
@@ -1371,6 +1508,7 @@
   },
   {
     "name_uz": "Xiva tumani",
+    "name_en": "Xiva district",    
     "name_ru": "Хивинский район",
     "coordinates": {
       "lng": 60.3761917,
@@ -1381,6 +1519,7 @@
   },
   {
     "name_uz": "Shovot tumani",
+    "name_en": "Shovot district",    
     "name_ru": "Шаватский район",
     "coordinates": {
       "lng": 60.296767,
@@ -1391,6 +1530,7 @@
   },
   {
     "name_uz": "Yangiariq tumani",
+    "name_en": "Yangiariq district",    
     "name_ru": "Янгиарыкский район",
     "coordinates": {
       "lng": 60.5994724,
@@ -1401,6 +1541,7 @@
   },
   {
     "name_uz": "Yangibozor tumani",
+    "name_en": "Yangibozor district",    
     "name_ru": "Янгибазарский район",
     "coordinates": {
       "lng": 60.5283291,
@@ -1411,6 +1552,7 @@
   },
   {
     "name_uz": "Shofirkon tumani",
+    "name_en": "Shofirkon district",    
     "name_ru": "Шафирканский район",
     "coordinates": {
       "lng": 64.4915204,
@@ -1421,6 +1563,7 @@
   },
   {
     "name_uz": "Romitan tumani",
+    "name_en": "Romitan district",    
     "name_ru": "Ромитанский район",
     "coordinates": {
       "lng": 64.3435759,
@@ -1431,6 +1574,7 @@
   },
   {
     "name_uz": "Peshku tumani",
+    "name_en": "Peshku district",    
     "name_ru": "Пешкунский район",
     "coordinates": {
       "lng": 63.3257926,
@@ -1441,6 +1585,7 @@
   },
   {
     "name_uz": "Qorovulbozor tumani",
+    "name_en": "Qorovulbozor district",    
     "name_ru": "Караулбазарский район,",
     "coordinates": {
       "lng": 64.7864204,
@@ -1451,6 +1596,7 @@
   },
   {
     "name_uz": "Qorakoʻl tumani",
+    "name_en": "Qorakoʻl district",    
     "name_ru": "Каракульский район",
     "coordinates": {
       "lng": 62.6504086,
@@ -1461,6 +1607,7 @@
   },
   {
     "name_uz": "Kogon tumani",
+    "name_en": "Kogon district",    
     "name_ru": "Каганский район,",
     "coordinates": {
       "lng": 64.5368265,
@@ -1471,6 +1618,7 @@
   },
   {
     "name_uz": "Jondor tumani",
+    "name_en": "Jondor district",    
     "name_ru": "\tЖондорский район,",
     "coordinates": {
       "lng": 64.0862936,
@@ -1481,6 +1629,7 @@
   },
   {
     "name_uz": "Gʻijduvon tumani",
+    "name_en": "Gʻijduvon district",    
     "name_ru": "Гиждуванский район,",
     "coordinates": {
       "lng": 64.9951859,
@@ -1491,6 +1640,7 @@
   },
   {
     "name_uz": "Vobkent tumani",
+    "name_en": "Vobkent district",    
     "name_ru": "Вабкентский район,",
     "coordinates": {
       "lng": 64.5285835,
@@ -1501,6 +1651,7 @@
   },
   {
     "name_uz": "Buxoro tumani",
+    "name_en": "Buxoro district",    
     "name_ru": "Бухарский район,",
     "coordinates": {
       "lng": 64.153521,
@@ -1511,6 +1662,7 @@
   },
   {
     "name_uz": "Olot tumani",
+    "name_en": "Olot district",    
     "name_ru": "Алатский район, ",
     "coordinates": {
       "lng": 63.8022561,
@@ -1521,6 +1673,7 @@
   },
   {
     "name_uz": "Amudaryo",
+    "namenuz": "Amudaryo",    
     "name_ru": "Амударьинский",
     "coordinates": {
       "lng": 60.0672607,
@@ -1531,6 +1684,7 @@
   },
   {
     "name_uz": "Beruniy",
+    "enme_uz": "Beruniy",    
     "name_ru": "Берунийский",
     "coordinates": {
       "lng": 60.7328468,
@@ -1541,6 +1695,7 @@
   },
   {
     "name_uz": "Boʻzatov",
+    "namenuz": "Boʻzatov",    
     "name_ru": "Бозатауский",
     "coordinates": {
       "lng": 59.3146169,
@@ -1551,6 +1706,7 @@
   },
   {
     "name_uz": "Qanlikoʻl",
+    "nameenz": "Qanlikoʻl",    
     "name_ru": "Канлыкульский",
     "coordinates": {
       "lng": 58.9979191,
@@ -1561,6 +1717,7 @@
   },
   {
     "name_uz": "Qoraoʻzak",
+    "nameenz": "Qoraoʻzak",    
     "name_ru": "Караузякский",
     "coordinates": {
       "lng": 60.0241556,
@@ -1571,6 +1728,7 @@
   },
   {
     "name_uz": "Kegeyli",
+    "enme_uz": "Kegeyli",    
     "name_ru": "Кегейлийский",
     "coordinates": {
       "lng": 59.6053027,
@@ -1581,6 +1739,7 @@
   },
   {
     "name_uz": "Qoʻng’irot",
+    "name_en": "Qoʻndistrict",    
     "name_ru": "Кунградский",
     "coordinates": {
       "lng": 58.846556,
@@ -1591,6 +1750,7 @@
   },
   {
     "name_uz": "Moʻynoq",
+    "enme_uz": "Moʻynoq",    
     "name_ru": "Муйнакский",
     "coordinates": {
       "lng": 59.0316327,
@@ -1601,6 +1761,7 @@
   },
   {
     "name_uz": "Nukus",
+    "enme_uz": "Nukus",    
     "name_ru": "Нукусский",
     "coordinates": {
       "lng": 59.5351412,
@@ -1611,6 +1772,7 @@
   },
   {
     "name_uz": "Taxiatosh",
+    "nameenz": "Taxiatosh",    
     "name_ru": "Тахиаташский",
     "coordinates": {
       "lng": 59.5787896,
@@ -1621,6 +1783,7 @@
   },
   {
     "name_uz": "Taxtakoʻpir",
+    "name_en": "Taxtadistrict",    
     "name_ru": "Тахтакупырский",
     "coordinates": {
       "lng": 60.2929865,
@@ -1631,6 +1794,7 @@
   },
   {
     "name_uz": "Toʻrtkoʻl",
+    "nameenz": "Toʻrtkoʻl",    
     "name_ru": "Турткульский",
     "coordinates": {
       "lng": 61.0324231,
@@ -1641,6 +1805,7 @@
   },
   {
     "name_uz": "Xoʻjayli",
+    "namenuz": "Xoʻjayli",    
     "name_ru": "Ходжейлийский",
     "coordinates": {
       "lng": 59.431552,
@@ -1651,6 +1816,7 @@
   },
   {
     "name_uz": "Chimboy",
+    "enme_uz": "Chimboy",    
     "name_ru": "Чимбайский",
     "coordinates": {
       "lng": 59.7743142,
@@ -1661,6 +1827,7 @@
   },
   {
     "name_uz": "Shumanoy",
+    "namenuz": "Shumanoy",    
     "name_ru": "Шуманайский",
     "coordinates": {
       "lng": 58.9229165,
@@ -1671,6 +1838,7 @@
   },
   {
     "name_uz": "Ellikqalʼa",
+    "name_en": "Ellidistrict",    
     "name_ru": "Элликкалинский",
     "coordinates": {
       "lng": 60.9101445,
@@ -1681,6 +1849,7 @@
   },
   {
     "name_uz": "Nukus",
+    "enme_uz": "Nukus",    
     "name_ru": "Нукус город",
     "coordinates": {
       "lng": 59.5632445,
@@ -1691,6 +1860,7 @@
   },
   {
     "name_uz": "Uchtepa tumani",
+    "name_en": "Uchtepa district",    
     "name_ru": "Учтепинский район",
     "coordinates": {
       "lng": 69.1742941,
@@ -1701,6 +1871,7 @@
   },
   {
     "name_uz": "Yangi Hayot tumani",
+    "name_en": "Yangi Hayot district",    
     "name_ru": "Район Янги хаёт",
     "coordinates": {
       "lng": 69.2301066,

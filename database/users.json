@@ -1,10 +1,10 @@
 [
     {
         "authLang": "🇺🇿 Uzbek",
-        "authContact": "998901328277",
-        "firstname": "Hghjhh",
-        "lastname": "Hhhjjj",
-        "birtDate": "Uuggg",
+        "authContact": "+998901328277",
+        "firstname": "Dostonbek",
+        "lastname": "O'ktamov",
+        "birtDate": "2020-02-02",
         "__scenes": {
             "current": "authSendBaza",
             "state": {}

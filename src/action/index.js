@@ -1,2 +1,2 @@
-require('./uzAction')
+require('./orderBot')
 require('./stmeps')

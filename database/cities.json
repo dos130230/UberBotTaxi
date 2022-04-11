@@ -1,7 +1,8 @@
 [
     {
       "name_ru": "Ташкент",
-      "name_uz": "Toshkent",
+      "name_en": "Toshkent",
+      "name_uz": "Toshkent",      
       "coordinates": {
         "lng": 69.2395064,
         "lat": 41.3153432
@@ -10,7 +11,8 @@
     },
     {
       "name_ru": "Самарканд",
-      "name_uz": "Samarqand viloyati",
+      "name_en": "Samarqand province",
+      "name_uz": "Samarqand viloyati",      
       "coordinates": {
         "lng": 66.9761517,
         "lat": 39.6534003
@@ -19,7 +21,8 @@
     },
     {
       "name_ru": "Ташкентская область",
-      "name_uz": "Toshkent viloyati",
+      "name_en": "Toshkent province",
+      "name_uz": "Toshkent viloyati",      
       "coordinates": {
         "lng": 69.0613267,
         "lat": 41.121724
@@ -28,7 +31,8 @@
     },
     {
       "name_ru": "Андижан",
-      "name_uz": "Andijon viloyati",
+      "name_en": "Andijon province",
+      "name_uz": "Andijon viloyati",      
       "coordinates": {
         "lng": 72.3463569,
         "lat": 40.7867402
@@ -37,7 +41,8 @@
     },
     {
       "name_ru": "Джизак",
-      "name_uz": "Jizzah viloyati",
+      "name_en": "Jizzah province",
+      "name_uz": "Jizzah viloyati",      
       "coordinates": {
         "lng": 67.8568254,
         "lat": 40.1328118
@@ -46,7 +51,8 @@
     },
     {
       "name_ru": "Кашкадарья",
-      "name_uz": "Qashqadaryo viloyati",
+      "name_en": "Qashqadaryo province",
+      "name_uz": "Qashqadaryo viloyati",      
       "coordinates": {
         "lng": 65.7954218,
         "lat": 38.863109
@@ -55,7 +61,8 @@
     },
     {
       "name_ru": "Навои",
-      "name_uz": "Navoiy viloyati",
+      "name_en": "Navoiy province",
+      "name_uz": "Navoiy viloyati",      
       "coordinates": {
         "lng": 65.3614745,
         "lat": 40.1082327
@@ -64,7 +71,8 @@
     },
     {
       "name_ru": "Наманган",
-      "name_uz": "Namangan viloyati",
+      "name_en": "Namangan province",
+      "name_uz": "Namangan viloyati",      
       "coordinates": {
         "lng": 71.2379557,
         "lat": 41.0011117
@@ -73,7 +81,8 @@
     },
     {
       "name_ru": "Сурхандарья",
-      "name_uz": "Surxondaryo viloyati",
+      "name_en": "Surxondaryo province",
+      "name_uz": "Surxondaryo viloyati",      
       "coordinates": {
         "lng": 67.3026997,
         "lat": 37.2375033
@@ -82,7 +91,8 @@
     },
     {
       "name_ru": "Сырдарья",
-      "name_uz": "Sirdaryo viloyati",
+      "name_en": "Sirdaryo province",
+      "name_uz": "Sirdaryo viloyati",      
       "coordinates": {
         "lng": 68.7785265,
         "lat": 40.4919928
@@ -91,7 +101,8 @@
     },
     {
       "name_ru": "Фергана",
-      "name_uz": "Farg’ona viloyati",
+      "name_en": "Farg’ona province",
+      "name_uz": "Farg’ona viloyati",      
       "coordinates": {
         "lng": 71.7957041,
         "lat": 40.3801216
@@ -100,7 +111,8 @@
     },
     {
       "name_ru": "Хорезм",
-      "name_uz": "Xorazm viloyati",
+      "name_en": "Xorazm province",
+      "name_uz": "Xorazm viloyati",      
       "coordinates": {
         "lng": 60.6257168,
         "lat": 41.5518043
@@ -109,7 +121,8 @@
     },
     {
       "name_ru": "Бухара",
-      "name_uz": "Buxoro viloyati",
+      "name_en": "Buxoro province",
+      "name_uz": "Buxoro viloyati",      
       "coordinates": {
         "lng": 64.4479122,
         "lat": 39.7670583
@@ -118,7 +131,8 @@
     },
     {
       "name_ru": "Каракалпакстан",
-      "name_uz": "Qoraqalpog’iston",
+      "name_en": "Qoraqalpog’iston province",
+      "name_uz": "Qoraqalpog’iston",      
       "coordinates": {
         "lng": 59.6171015,
         "lat": 42.4617936
